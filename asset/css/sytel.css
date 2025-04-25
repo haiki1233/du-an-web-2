@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* ============================= coment ============================= */
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ================================ header =========================== */
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+}
+
+.header__body--logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header__body--logo1{
+   padding: 9.12px 9.19px 7.83px 9.78px;
+   border-radius: 50%;
+   background: #192122;
+   margin-right: 5.19px;
+}
+
+.header__body--logo2{
+   padding-right: 5px;
+}
+
+.header__body--logo3{
+   position: absolute;
+   right: 0;
+   bottom: 10px;
+}
+
+.header__description {
+  display: flex;
+  gap: 9px;
+  margin-left: 210px;
+}
+
+.header__description--navigation {
+  padding: 15px;
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   margin-left: 177px;
+}
+
+.header__btn--sign-in {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.header__btn--sign-up {
+   padding: 12px 24px;
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 6px;
+border: 1px solid #1EBFC1;
+}
+
+
