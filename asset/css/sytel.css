@@ -29,6 +29,7 @@ a {
 }
 
 .header__body--logo {
+   width: 10.6%;
   display: flex;
   align-items: center;
   position: relative;
@@ -54,6 +55,7 @@ a {
 .header__description {
   display: flex;
   gap: 9px;
+  width: calc(61% -235px);
   margin-left: 210px;
 }
 
@@ -67,6 +69,7 @@ a {
 }
 
 .header__btn{
+   width: calc(28.4% -177px);
    display: flex;
    justify-content: center;
    align-items: center;
